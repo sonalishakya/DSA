@@ -9,7 +9,7 @@ import java.util.List;
 
 public class generateParenthesis {
     public static void main(String[] args) {
-        int n = 2;
+        int n = 5;
         List<String> solution = new ArrayList<>();
         parenthesis(n, n, "", solution);
         System.out.println(solution.size());

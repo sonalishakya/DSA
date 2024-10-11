@@ -16,6 +16,8 @@ public class nQueenProblem {
         solve(0, n, cantVisit, solution);
         for (List<String> s : solution)
             System.out.println(s);
+        String s = "shd";
+        s.length();
 
 
     }

@@ -10,7 +10,7 @@ import java.util.Map;
  */
 public class nQueenProblemV2 {
     public static void main(String[] args) {
-        int n = 5;
+        int n = 4;
         char[][] board = new char[n][n];
         List<List<String>> sol = new ArrayList<>();
         Map<Integer, Boolean> upperRight = new HashMap<>();
